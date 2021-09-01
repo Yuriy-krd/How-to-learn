@@ -209,7 +209,6 @@
   background-color: #f2f2f2;
   display: flex;
   flex-direction: column;
-  align-items: center;
   position: relative;
   height: 890px;
 }
@@ -217,7 +216,7 @@
 .feynman__title {
   text-align: center;
   color: #000000;
-  margin: 0 0 70px;
+  margin: 100px auto 70px;
   padding: 0;
   width: 648px;
   line-height: 1.15;
@@ -229,7 +228,7 @@
 .feynman__subtitle {
   text-align: center;
   color: #000000;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   line-height: 51px;
   font-size: 36px;

@@ -86,7 +86,23 @@
 }
 
 .description {
-  margin: 100px 0;
+  margin: 100px auto;
+  padding: 0;
+}
+
+.two-columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.two-columns__brief {
+  color: #2f80ed;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  width: 175px;
 }
 
 .table__cell_theme_dark {

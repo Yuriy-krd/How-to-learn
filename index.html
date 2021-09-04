@@ -10,9 +10,7 @@
   <body>
     <div class="page">
       <header class="header">
-        <div class="logo logo_place_header">
-          <img src="./images/logo_place_header.svg" alt="логотип Яндекс.Практикума" />
-        </div>
+        <img src="./images/logo_place_header.svg" alt="логотип Яндекс.Практикума" class="logo logo_place_header" />
         <div class="header__square-pic"></div>
         <img class="header__image" src="./images/header-image.png" alt="Изображение мальчика-ученика" />
         <h1 class="header__title">Научиться учиться</h1>
@@ -76,7 +74,7 @@
           <h2 class="feynman__title">Метод Фейнмана</h2>
           <p class="feynman__subtitle">Выучить и не забыть.</p>
           <a href="#" class="feynman__link">Подробнее &rarr;</a>
-          <img src="./images/feynman.png" alt="фотография Фейнмана" class="feynman-foto" />
+          <img src="./images/feynman.png" alt="фотография Фейнмана" class="feynman__foto" />
         </section>
         <section class="kaufman">
           <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
@@ -127,15 +125,13 @@
         </section>
       </main>
       <footer class="footer">
-        <ul class="footer__columns">
-          <li class="footer__column_content_copyright">
-            <div class="logo logo_place_footer">
-              <img src="./images/logo_place_footer.svg" alt="логотип Яндекс.Практикума" />
-            </div>
-            <p class="footer__author">&COPY; 2019. Виктор Абанькин</p>
-          </li>
-          <li class="footer__column_content_info">
-            <p class="footer__column-heading">О Практикуме</p>
+        <div class="footer__columns">
+          <div class="footer__column footer__column_content_copyright">
+            <img src="./images/logo_place_footer.svg" alt="логотип Яндекс.Практикума" class="logo logo_place_footer" />
+            <p class="footer__author">&COPY; 2021. Юрий Балашов</p>
+          </div>
+          <nav class="footer__column footer__column_content_info">
+            <h3 class="footer__column-heading">О Практикуме</h3>
             <ul class="footer__column-links">
               <li>
                 <a href="#" class="footer__column-link">Главная</a>
@@ -147,9 +143,9 @@
                 <a href="#" class="footer__column-link">Наставники</a>
               </li>
             </ul>
-          </li>
-          <li class="footer__column_content_social">
-            <p class="footer__column-heading">Соцсети</p>
+          </nav>
+          <nav class="footer__column footer__column_content_social">
+            <h3 class="footer__column-heading">Соцсети</h3>
             <ul class="footer__column-links">
               <li>
                 <a href="#" class="footer__column-link"><img src="./images/facebook_color_white.svg" class="footer__social-icon" alt="иконка соцсети Фейсбук" />Facebook</a>
@@ -161,8 +157,8 @@
                 <a href="#" class="footer__column-link"><img src="./images/instagram_color_white.svg" class="footer__social-icon" alt="иконка соцсети Инстаграм" />Instagram</a>
               </li>
             </ul>
-          </li>
-        </ul>
+          </nav>
+        </div>
       </footer>
     </div>
   </body>

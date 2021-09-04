@@ -245,7 +245,7 @@
   bottom: 50%;
 }
 
-.feynman-foto {
+.feynman__foto {
   position: absolute;
   width: 867px;
   height: 637px;
@@ -316,6 +316,12 @@
   list-style-type: none;
 }
 
+.footer__column {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
 .footer__column_content_copyright {
   margin: 0;
   padding: 0;
@@ -337,19 +343,16 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  color: white;
 }
 
 .footer__column_content_info {
   margin: 0;
   padding: 0;
-  color: white;
 }
 
 .footer__column_content_social {
   margin: 0;
   padding: 0;
-  color: white;
 }
 
 .footer__column-heading {

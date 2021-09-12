@@ -18,51 +18,6 @@
   font-weight: normal;
 }
 
-.feynman__title {
-  text-align: center;
-  color: #000000;
-  margin: 100px auto 70px;
-  padding: 0;
-  width: 648px;
-  line-height: 1.15;
-  font-size: 120px;
-  font-weight: bolder;
-  z-index: 2;
-}
-
-.feynman__subtitle {
-  text-align: center;
-  color: #000000;
-  margin: 0 auto;
-  padding: 0;
-  line-height: 51px;
-  font-size: 36px;
-  font-weight: normal;
-  z-index: 2;
-}
-
-.feynman__link {
-  text-decoration: none;
-  margin: 0;
-  padding: 0;
-  color: #2f80ed;
-  line-height: 51px;
-  font-size: 36px;
-  font-weight: normal;
-  position: absolute;
-  right: 48px;
-  bottom: 50%;
-}
-
-.feynman__foto {
-  position: absolute;
-  width: 867px;
-  height: 637px;
-  bottom: 0;
-  left: 0;
-  z-index: 1;
-}
-
 .section-title_theme_dark {
   color: white;
   z-index: 1;

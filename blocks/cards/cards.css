@@ -1,3 +1,6 @@
 .cards {
-    display: grid;
+  width: 920px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }

@@ -2,7 +2,7 @@
     margin: 100px auto 0;
     padding: 0;
     display: flex;
-    flex-direction: column;   
+    flex-direction: column;
     height: 450px;
     overflow: visible;
 }

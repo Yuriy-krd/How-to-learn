@@ -10,3 +10,8 @@
   right: 48px;
   bottom: 50%;
 }
+
+.feynman__link:hover {
+  opacity: 0.5;
+  transition: linear .5s;
+}
